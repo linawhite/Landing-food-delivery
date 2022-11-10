@@ -1,0 +1,34 @@
+@media screen and (max-width: 1175px) {
+  html {
+    font-size: 70%;
+  }
+
+  .header_logo {
+    margin-right: 13em;
+  }
+
+  .first-part {
+    padding: 0 3em 0 6em;
+  }
+
+  .icon-woman {
+    width: 36rem;
+  }
+
+  .support-logo {
+    gap: 8em;
+  }
+
+  .clock-img {
+    width: 3.5em;
+    height: 3.5em;
+  }
+
+  .second-part {
+    font-size: 12px;
+  }
+
+  .services {
+    gap: 10.5em;
+  }
+}

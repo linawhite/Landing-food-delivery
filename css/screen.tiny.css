@@ -1,0 +1,21 @@
+@media screen and (max-width: 1020px) {
+  .first-part {
+    padding: 0 3em 0 5em;
+  }
+
+  .services {
+    gap: 5em;
+  }
+
+  .comm-boy {
+    left: 4.25em;
+  }
+
+  .comm-girl {
+    right: 2.938em;
+  }
+
+  .what-say {
+    padding: 0 5em;
+  }
+}

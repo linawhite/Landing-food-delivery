@@ -1,0 +1,1031 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  letter-spacing: 0.01em;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: repeating-linear-gradient(
+    180deg,
+    rgba(255, 253, 253, 1) 0%,
+    rgb(242, 234, 226) 62%,
+    rgba(241, 228, 215, 1) 100%
+  );
+  overflow-x: hidden;
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2.78% 6.94% 0 6.94%;
+  margin-bottom: 4.17%;
+}
+
+.header_logo {
+  font: 600 1.5rem/100% "Montserrat";
+  color: #ec994b;
+  margin-right: 15.75em;
+}
+
+.navigation {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.125em;
+}
+
+.navig_link {
+  display: inline-block;
+  font: 500 1em/100% "Montserrat";
+  color: #222224;
+}
+
+.navig_link:link {
+  color: #222224;
+  text-decoration: none;
+}
+
+.navig_link:hover {
+  border-bottom: 0.125rem solid #ec994b;
+}
+
+.navig_link:visited {
+  color: #222224;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  gap: 1.875em;
+  margin-left: auto;
+}
+
+.group-shopping-cart:hover {
+  border-radius: 50%;
+  border: 0.125em solid #ec994b;
+}
+
+.group-shopping-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.33vw;
+  height: 3.33vw;
+  background-color: #f9f9f9;
+  border-radius: 50%;
+}
+
+.shopping-cart {
+  position: absolute;
+  width: 1.67vw;
+}
+
+.amount-messages {
+  width: 1.04vw;
+  height: 1.04vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ec994b;
+  border-radius: 50%;
+  position: absolute;
+  font: 400 0.8rem/100% "Montserrat";
+  color: white;
+  transform: translate(50%, -50%);
+}
+
+.authorization-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.875em;
+}
+
+.authorization-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8.89vw;
+  height: 3.33vw;
+  border-radius: 2.5625rem;
+  font: 600 1rem/100% "Poppins";
+}
+
+.authorization-buttons:hover {
+  transform: scale(1.03);
+}
+
+.register-button {
+  background-color: white;
+  border: 0.0625rem solid #ec994b;
+  color: #ec994b;
+}
+
+.login-button {
+  background-color: #ec994b;
+  color: white;
+}
+
+.first-part {
+  width: 100vw;
+  padding: 0 6.25em 0 6.25em;
+}
+
+.banner-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8.313em;
+}
+
+.tagline {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 2.563em;
+}
+
+h1 {
+  font: 700 4rem/120% "Montserrat";
+  color: #222224;
+  text-align: left;
+  margin-bottom: 0.391em;
+}
+
+.restaur-descr {
+  font: 500 1.25rem/130% "Montserrat";
+  color: #797979;
+  margin-bottom: 1.458em;
+}
+
+.order-buttons-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.5em;
+  margin-bottom: 3em;
+}
+
+.order-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font: normal 600 1rem "Poppins";
+  border-radius: 41px;
+  height: 3em;
+}
+
+.order-buttons:hover {
+  transform: scale(1.03);
+}
+
+.order-now {
+  width: 9.188em;
+  background: #ec994b;
+  color: white;
+}
+
+.order-now:hover {
+  transform: scale(1.03);
+}
+
+.how-to-order {
+  width: 12.438em;
+  border: 1px solid #ec994b;
+  color: #ec994b;
+  gap: 0.625em;
+}
+
+.play-circle {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.review {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.25em;
+}
+
+.cust-photos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: 4.375em;
+}
+
+.cust-photo {
+  margin-right: -1.875em;
+}
+
+.review-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.375em;
+  align-items: flex-start;
+  margin-left: 1.25em;
+}
+
+.cust-review {
+  font: 600 1rem/120% "Poppins";
+  color: black;
+  text-align: left;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  width: 6.875em;
+  height: 1.25em;
+}
+
+.star {
+  height: 0.994em;
+  width: 1.044em;
+}
+
+.amount-stars {
+  font: 400 0.875rem/120% "Poppins";
+  color: black;
+}
+
+.amount-reviews {
+  font: 400 0.625rem/120% "Poppins";
+  color: #9c9c9c;
+}
+
+.banner {
+  min-width: 44.76%;
+  height: 35.125rem;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-direction: row;
+  position: relative;
+  right: 0.69%;
+}
+
+.back-banner {
+  border-radius: 12.5em 12.5em 0 0;
+  width: 27.313rem;
+  height: inherit;
+  background-color: #ec994b;
+  position: absolute;
+  bottom: 0;
+  right: 0.69%;
+}
+
+.icon-woman {
+  min-width: inherit;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cust-quote {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 4.188em;
+  width: 17.75em;
+  border-radius: 1em;
+  background-color: white;
+  filter: drop-shadow(0px 4px 24px rgba(16, 30, 57, 0.05));
+  position: absolute;
+  bottom: -1.75em;
+  right: -1.125em;
+}
+
+.cust-quote-text {
+  font: 500 0.625em/120% "Poppins";
+  color: #9f9f9f;
+  margin-left: 1.6em;
+}
+
+.cust-quote-man {
+  width: 2.5em;
+  height: 2.917em;
+}
+
+.pizza {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 8.875em;
+  height: 4em;
+  background: white;
+  box-shadow: 0px 4px 18px rgba(19, 41, 61, 0.05);
+  border-radius: 1em;
+  position: absolute;
+  top: 1.625em;
+  right: 0;
+}
+
+.pizza-img {
+  height: 2.5em;
+  width: 2.5em;
+  position: absolute;
+  left: 1em;
+}
+
+.pizza-txt {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.125em;
+  width: 3.125em;
+  position: absolute;
+  right: 1.25em;
+}
+
+.pizza-txt-rev {
+  font: 400 0.75em/100% "Montserrat";
+  color: #cecece;
+}
+
+.pizza-rev-amount {
+  font: 700 0.875em/130% "Montserrat";
+  color: black;
+}
+
+.courier {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 11.25em;
+  height: 3.313em;
+  background: white;
+  box-shadow: 0px 4px 23px rgba(19, 28, 62, 0.05);
+  border-radius: 35px;
+  position: absolute;
+  top: 4.313em;
+  left: 0;
+  padding: 0.5rem 1.688rem 0.563rem 1.688rem;
+}
+
+.courier-photo {
+  width: 2.25em;
+  height: 2.25em;
+}
+
+.courier-descr {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.125em;
+}
+
+.courier-name {
+  font: 600 0.875em/120% "Montserrat";
+  color: #222224;
+}
+
+.courier-charact {
+  font: 400 0.625em/120% "Montserrat";
+  color: #222224;
+  opacity: 0.5;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.125em;
+  height: 4em;
+  transform: rotate(-15deg);
+  background: #ec994b;
+  border-radius: 16px;
+  position: absolute;
+  top: 11.188em;
+  left: -0.75em;
+}
+
+.clock-img {
+  transform: rotate(-15deg);
+  width: 4rem;
+  height: 4rem;
+}
+
+.circle-lunch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.438em;
+  height: 4.438em;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  top: 10.25em;
+  left: 8.75em;
+}
+
+.lunch-time {
+  height: 1.25em;
+  width: 3.438em;
+}
+
+.circle-truck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.75em;
+  height: 2.75em;
+  background: #ec994b;
+  border-radius: 50%;
+  position: absolute;
+  top: 16.625em;
+  left: 1.875em;
+}
+
+.circle-top {
+  width: 1.688em;
+  height: 1.688em;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 3.375em;
+  right: 13.063em;
+}
+.circle-right {
+  width: 1.688em;
+  height: 1.688em;
+  border-radius: 50%;
+  background: #ffffff;
+  position: absolute;
+  right: 2.375em;
+  top: 13.938em;
+}
+
+.support {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4.875em;
+  padding: 0 0.938em 0 0.938em;
+}
+
+.support-txt {
+  font: 600 0.875em/1.214em "Montserrat";
+  color: #9c9c9c;
+}
+
+.support-logo {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10em;
+}
+
+logo1 {
+  width: 5.625em;
+}
+
+.logo2 {
+  width: 7.5em;
+}
+
+.second-part {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6.875em 6.25em 0 6.25em;
+}
+
+.page-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1em;
+  align-items: center;
+}
+
+.small-caption {
+  font: 500 0.875em/1.214em "Montserrat";
+  color: #ec994b;
+}
+
+h2 {
+  font: 700 2.25em/1.222em "Montserrat";
+  color: #222224;
+}
+
+.services {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 12.25em;
+  width: 100%;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.781em;
+  margin-top: 5em;
+}
+
+.serv-img1 {
+  width: 15.753em;
+}
+
+.serv-img2 {
+  width: 15.938em;
+}
+
+.serv-img3 {
+  width: 17.313em;
+}
+
+h3 {
+  font: 600 2em/1.219em "Montserrat";
+  font-family: "Montserrat";
+  color: #222224;
+}
+
+.serv-descr {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+
+.descr-txt {
+  font: 500 1em/2em "Montserrat";
+  text-align: center;
+  color: #222224;
+  opacity: 0.7;
+  width: 14.25em;
+}
+
+.third-part {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8.125em;
+}
+
+.swiper {
+  width: 100%;
+  height: 27.625rem;
+  margin-top: 5em;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  display: flex;
+  width: calc(25em * 14);
+  animation: scroll 40s linear infinite;
+}
+
+.swiper-slide {
+  height: 25em;
+  width: 25em;
+  display: flex;
+  align-items: center;
+  padding: 0 0.625em;
+  perspective: 12.5em;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-25em * 7));
+  }
+}
+
+.food-img {
+  width: 100%;
+  transition: transform 0.005s;
+}
+
+.food-img:hover {
+  transform: translateZ(0.625em);
+}
+
+.comment-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8.125em;
+}
+
+.images-wrapper {
+  margin-top: 2.75em;
+  position: relative;
+  height: 27.438em;
+  width: 100%;
+}
+
+.comm-pizza {
+  width: 25em;
+  height: 25em;
+  position: absolute;
+  top: 2.25em;
+  left: calc(50% - 12.5em);
+}
+.comm-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.comm-cake-img {
+  width: 10em;
+  height: 10em;
+}
+
+.comm-pancakes-img {
+  width: 7em;
+  height: 7em;
+}
+
+.comm-cake-link {
+  background: url(../img/svg/comment-cake.svg);
+  top: 0;
+  left: 15.438em;
+  z-index: 1;
+}
+
+.comm-pancakes-link {
+  width: 7em;
+  height: 7em;
+  background: url(../img/svg/comment-pancakes.svg);
+  bottom: 0.875em;
+  right: 12.375em;
+}
+
+.link-cake-txt {
+  font: 600 1.25em/1.3em "Montserrat";
+  letter-spacing: 0.01em;
+  color: #e9e9e9;
+  transform: rotate(-30deg);
+  position: absolute;
+  top: 2.688em;
+}
+
+.link-pancakes-txt {
+  font: 600 0.875em/1.286em "Montserrat";
+  letter-spacing: 0.01em;
+  color: #e9e9e9;
+  transform: rotate(30deg);
+  position: absolute;
+  top: 2.688em;
+}
+
+.comment-group {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 33.625em;
+  height: 9.375em;
+}
+
+.comm-girl {
+  position: absolute;
+  top: 2.188em;
+  right: 4.938em;
+}
+
+.comm-boy {
+  position: absolute;
+  bottom: 0;
+  left: 6.25em;
+}
+
+.comm-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.125em 1.25em;
+  gap: 0.625em;
+  background: #ffffff;
+  box-shadow: 0 4px 23px rgba(19, 31, 53, 0.05);
+  border-radius: 16px;
+  width: 23.688em;
+  height: 7.625em;
+}
+
+.comm-photo {
+  width: 9.375em;
+  height: 9.375em;
+}
+
+.name {
+  font: 600 1.25em/1.3em "Montserrat";
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.occupation {
+  font: 500 0.75em/1em "Montserrat";
+  letter-spacing: 0.01em;
+  color: #b7b4b4;
+}
+
+.comment {
+  font: 400 0.875em/1.286em "Montserrat";
+  letter-spacing: 0.01em;
+  color: #7a7a7a;
+}
+
+.what-say {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8.938em;
+  margin-top: 8.25em;
+  padding: 0 11.625em;
+}
+
+.what-say-icon {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 27.188em;
+  height: 39.81em;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.what-say-icon-back {
+  width: 23.894em;
+  height: 36.301em;
+  background: #ec994b;
+  border-radius: 16px;
+  position: absolute;
+  top: 3.509em;
+  left: 0;
+}
+
+.what-say-icon-woman {
+  width: 27.188em;
+  height: 39.81em;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.what-say-review {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5em;
+  align-items: flex-start;
+  width: 30.625em;
+  height: 23.438em;
+}
+
+.wht-say-page-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.25em;
+  align-items: flex-start;
+}
+
+.photographer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.813em;
+}
+
+.wht-say-name {
+  font: 600 1.5rem/1.5em "Montserrat";
+  letter-spacing: 0.01em;
+  color: #000000;
+  margin-bottom: 0.625em;
+}
+
+.wht-say-occupation {
+  font: 500 0.875rem/0.875em "Montserrat";
+  letter-spacing: 0.01em;
+  color: #b7b4b4;
+}
+
+.wht-say-comment {
+  font: 400 1.25rem/1.625em "Montserrat";
+  letter-spacing: 0.01em;
+  color: #7a7a7a;
+}
+
+.wht-say-amount-stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.313em;
+  align-items: center;
+  font: 600 1rem/1.25em "Montserrat";
+  text-align: center;
+  color: #222224;
+  text-shadow: 0px 4px 23px rgba(0, 0, 0, 0.15);
+}
+
+.get-discount-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8em;
+  margin-top: 9.188em;
+  background: #ec994b;
+  padding: 4.188em 6.25em 2.978em 6.25em;
+}
+
+.girl-with-donuts {
+  width: 28.626em;
+  height: 26.834em;
+}
+
+.suggest {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 33.875em;
+  height: 16.938em;
+}
+
+.suggest-caption {
+  font: 600 3rem/3.875rem "Montserrat";
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.suggest-descr {
+  font: 500 1rem/1.313rem "Montserrat";
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.email-form {
+  display: flex;
+  flex-direction: row;
+  gap: 1.25em;
+}
+
+.input-email {
+  width: 25.5em;
+  height: 4.063em;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 0;
+  text-align: left;
+  padding-left: 1.375em;
+}
+
+.send-email {
+  width: 7.125em;
+  height: 4.063em;
+  background: #222224;
+  border-radius: 8px;
+  border: 0px;
+  font: 700 1rem/1.313rem "Montserrat";
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.send-email:hover {
+  transform: scale(1.03);
+}
+
+::placeholder {
+  font: 400 1rem/ 1.313rem "Montserrat";
+  letter-spacing: 0.01em;
+  color: #bfbfbf;
+  text-align: left;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background: #222224;
+  padding: 5.938em 6.25em 1.563em 6.25em;
+  gap: 6.688em;
+}
+
+.footer-info-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 7.688em;
+}
+
+.social-networks-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2.063em;
+  width: 7.5em;
+  height: auto;
+}
+
+.icon-social-networks-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2.063em;
+  width: 7.5em;
+  height: 7.063em;
+}
+
+.icon-social-networks {
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.links-social:hover {
+  transform: scale(1.03);
+  border-radius: 50%;
+  border: 0.125rem solid #ec994b;
+}
+
+.row-net {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2.5em;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2.5em;
+  align-items: flex-start;
+}
+
+.nav-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.375em;
+}
+
+.nav-caption {
+  font: 700 1.375rem/1.719rem "Quicksand";
+  color: #e2e2e2;
+  text-align: left;
+}
+
+.foot-nav-links {
+  font: 400 1.125em/1.375em "Quicksand";
+  color: #e2e2e2;
+  text-align: left;
+}
+
+.foot-nav-links:hover {
+  color: #ec994b;
+  transition: 0.3s ease-in;
+}
+
+.watermark {
+  font: 400 0.875em/1.25em "Inter";
+  text-align: center;
+  color: #ffffff;
+}

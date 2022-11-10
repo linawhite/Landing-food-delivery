@@ -1,0 +1,29 @@
+@media screen and (max-width: 1439px) {
+  html {
+    font-size: 80%;
+  }
+
+  header {
+    padding: 1% 4% 0 4%;
+  }
+
+  .wrapper {
+    gap: 2em;
+  }
+
+  .header_logo {
+    margin-right: 14em;
+  }
+
+  .navigation {
+    margin-right: 1.5em;
+  }
+
+  .icon-woman {
+    width: 33.625em;
+  }
+
+  .second-part {
+    padding: 6em 6.25em 0 6em;
+  }
+}
